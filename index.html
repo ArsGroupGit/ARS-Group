@@ -15,6 +15,13 @@
       #job{
         background-color: yellow;
       }
+      
+      #job a{
+        size: 22px;
+        font-family: Arial;
+        color: black;
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
@@ -22,18 +29,26 @@
     <img src="logo_arsgroup.png">
     <br><br><br>
     <div id="job">
-      <br>
+      <br><br>
       <a href="./jobs.html"><strong>JOBS</strong></a>
-      <br>
+      <br><br><br>
     </div>
     <br><br>
     <div>
       <nav>
-        <a href="https://www.robarm.netlify.app"><img src="logo_robarm.png"></a><br>
-        <a href="https://www.minasayvaz.netlify.app"><img src="logo_msaz.png"></a><br>
-        <a href="https://www.fwanewsarmenia.netlify.app"><img src="logo_fwa.png"></a>
+        <a href="https://www.robarm.netlify.app">RobArm Website</a><br>
+        <a href="https://www.minasayvaz.netlify.app">MsAz Website</a><br>
+        <a href="https://www.fwanewsarmenia.netlify.app">FW Armenia Website</a>
       </nav>
     </div>
+    <br><br>
+    <div class="contact">
+      <h2>Contact</h2>
+      <button onclick="email()">Email</button>
     <br><br><br>
+    <script>
+      function email(){
+        alert('info.arsgr@gmail.com. Our admins will reply within 48 hours.')
+    </script>
   </body>
 </html>
